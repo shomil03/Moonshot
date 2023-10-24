@@ -18,6 +18,7 @@
 		4FC290372ABCA56A00EAEC55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC290362ABCA56A00EAEC55 /* ContentView.swift */; };
 		4FC290392ABCA56B00EAEC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC290382ABCA56B00EAEC55 /* Assets.xcassets */; };
 		4FC2903C2ABCA56B00EAEC55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC2903B2ABCA56B00EAEC55 /* Preview Assets.xcassets */; };
+		4FC616012AE836C4001CFF55 /* Grid_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC616002AE836C4001CFF55 /* Grid_View.swift */; };
 		4FD32B0B2AD4799C006E6511 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD32B0A2AD4799C006E6511 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		4FC290362ABCA56A00EAEC55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FC290382ABCA56B00EAEC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC2903B2ABCA56B00EAEC55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FC616002AE836C4001CFF55 /* Grid_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid_View.swift; sourceTree = "<group>"; };
 		4FD32B0A2AD4799C006E6511 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 			children = (
 				4FC290342ABCA56A00EAEC55 /* MoonshotApp.swift */,
 				4FC290362ABCA56A00EAEC55 /* ContentView.swift */,
+				4FC616002AE836C4001CFF55 /* Grid_View.swift */,
 				4FD32B0A2AD4799C006E6511 /* AstronautView.swift */,
 				4FB3E7392ACDCB4400FC3C34 /* MissionView.swift */,
 				4FB3E7352ACC771800FC3C34 /* Color-Theme.swift */,
@@ -167,6 +170,7 @@
 				4FC290372ABCA56A00EAEC55 /* ContentView.swift in Sources */,
 				4FD32B0B2AD4799C006E6511 /* AstronautView.swift in Sources */,
 				4FB3E7362ACC771800FC3C34 /* Color-Theme.swift in Sources */,
+				4FC616012AE836C4001CFF55 /* Grid_View.swift in Sources */,
 				4F59AE6D2ABF5C8700A5986B /* Astronauts.swift in Sources */,
 				4FC290352ABCA56A00EAEC55 /* MoonshotApp.swift in Sources */,
 				4F59AE6F2ABF5CF400A5986B /* Bundle-Decodable.swift in Sources */,

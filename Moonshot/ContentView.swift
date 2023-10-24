@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     let Astronauts : [String : Astronauts] = Bundle.main.decode("astronauts.json")
     let mission : [Mission] = Bundle.main.decode("missions.json")
-    let column = [
+    @State var view_type = true
+    @State var column = [
         GridItem(.adaptive(minimum: 150))
     ]
     var body: some View{
@@ -28,18 +29,22 @@ struct ContentView: View {
                                         .scaledToFit()
                                         .frame(width: 100 , height: 100)
                                         .padding()
+                                    Text(mission.formattedLaunchDate)
+                                        .font(.caption)
+                                        .foregroundStyle(.white)
+                                        .opacity(0.5)
                                     VStack {
                                         Text(mission.displayname)
                                             .font(.headline)
                                             
-                                        Text(mission.formattedLaunchDate)
+                                        
                                             .font(.caption)
                                     }
                                     .padding(.vertical)
                                     .frame(maxWidth:.infinity)
                                     .background(.lightBackground)
                                     .foregroundColor(.white)
-                                    .opacity(0.5)
+                                    
                                 }
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
                                 .overlay(
