@@ -14,10 +14,42 @@
             filePath = "Moonshot/MoonshotApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F05B7236-AB54-4A06-8D7C-B11C823E830E - 5ecf234f90abb56d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Moonshot.ContentView in Moonshot.MoonshotApp.body.getter : some"
+                  moduleName = "Moonshot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shomilsingh/Documents/ios_development/Moonshot/Moonshot/MoonshotApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F05B7236-AB54-4A06-8D7C-B11C823E830E - 5ecf234f90abb54e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Moonshot.ContentView in Moonshot.MoonshotApp.body.getter : some"
+                  moduleName = "Moonshot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shomilsingh/Documents/ios_development/Moonshot/Moonshot/MoonshotApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

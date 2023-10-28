@@ -1,25 +1,22 @@
 //
-//  Grid_View.swift
+//  Lisy_View.swift
 //  Moonshot
 //
-//  Created by Shomil Singh on 24/10/23.
+//  Created by Shomil Singh on 26/10/23.
 //
 
 import SwiftUI
 
-struct Grid_View: View {
+struct List_View: View {
     let Astronauts : [String : Astronauts] = Bundle.main.decode("astronauts.json")
     let mission : [Mission] = Bundle.main.decode("missions.json")
-    
+   
     @Binding var toogle_view : ViewMode
-    @State var column = [
-        GridItem(.adaptive(minimum: 150))
-    ]
     var body: some View {
         VStack{
             NavigationView() {
                 ScrollView{
-                    LazyVGrid(columns: column) {
+                    LazyVStack() {
                         ForEach(mission) { mission in
                             NavigationLink{
                                 MissionView(mission: mission, astronauts: Astronauts)
@@ -55,7 +52,6 @@ struct Grid_View: View {
                                 )
                             }
                         }
-                        
                     }
                     .padding([.vertical,.horizontal])
                 }
@@ -70,16 +66,14 @@ struct Grid_View: View {
                         }
                     }
                 }
-              
                 
+                
+
             }
-           
         }
-        
     }
-        
    
 }
 #Preview {
-    Grid_View(toogle_view: .constant(.grid) )
+    List_View(toogle_view: .constant(.list))
 }
